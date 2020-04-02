@@ -149,14 +149,14 @@
             "PRIORITY": "Öncelik",
             "ASSIGNED": "Aranmış",
             "ASSIGNED_TO": "Atanmış",
-            "ASSIGNED_USERS": "Assigned users",
+            "ASSIGNED_USERS": "Atanmış kullanıcılar",
             "POINTS": "Puanlar",
             "IS_BLOCKED": "engellendi ",
             "REF": "Ref",
             "VOTES": "Oylar",
             "SPRINT": "Koşu",
-            "DUE_DATE": "Due date",
-            "DUE_DATE_REASON": "Due date reason"
+            "DUE_DATE": "Bitim tarihi",
+            "DUE_DATE_REASON": "Bitim tarihi nedeni"
         },
         "ROLES": {
             "ALL": "Hepsi"
@@ -172,10 +172,10 @@
             "SELF": "Bana ata"
         },
         "DUE_DATE": {
-            "TITLE_ACTION_SET_DUE_DATE": "Set due date"
+            "TITLE_ACTION_SET_DUE_DATE": "Bitim tarihi ayarla"
         },
         "ASSIGNED_USERS": {
-            "ADD": "Select assigned user",
+            "ADD": "Atanmış kullanıcı seçin",
             "ADD_ASSIGNED": "Add assigned",
             "TITLE_LIGHTBOX_DELETE_ASSIGNED": "Delete assigned..."
         },
@@ -242,7 +242,7 @@
                 "PRIORITIES": "Öncelikler",
                 "TAGS": "Etiketler ",
                 "ASSIGNED_TO": "Atanmış",
-                "ASSIGNED_USERS": "Assigned users",
+                "ASSIGNED_USERS": "Atanmış kullanıcılar",
                 "ROLE": "Rol",
                 "CREATED_BY": "Oluşturan",
                 "CUSTOM_FILTERS": "Özel filtreler",
@@ -331,7 +331,7 @@
     },
     "LOGIN_FORM": {
         "ERROR_AUTH_INCORRECT": "According to the Taiga, your username/email or password are incorrect.",
-        "SUCCESS": "Welcome to Taiga."
+        "SUCCESS": "Taiga ya hoşgeldin."
     },
     "REGISTER": {
         "PAGE_TITLE": "Kayıt ol - Taiga",
@@ -391,9 +391,9 @@
     },
     "HOME": {
         "PAGE_TITLE": "AnaSayfa - Taiga",
-        "PAGE_DESCRIPTION": "Atanmış ve izlenen kullanıcı hikayeleri, işler ve sorunların yanı sıra ana projeleriniz için Taiga ana sayfanız",
-        "EMPTY_WORKING_ON": "<strong>Burası bomboş, değil mi?</strong> Taiga ile çalışmaya başlayınca burada hikayeler, isler ve sorunları göreceksin.",
-        "EMPTY_WATCHING": "<strong>Follow</strong> user stories, tasks, issues in your projects and be notified about their changes :)",
+        "PAGE_DESCRIPTION": "Ana projelerinize atanmış ve izlediğiniz tüm kullanıcı hikayeleri, görevler ve sorunlar içeren Tayga ana sayfası",
+        "EMPTY_WORKING_ON": "<strong>Kendinizi boşlukta hissediyorsunuz, değil mi? </strong>Taiga ile çalışmaya başlayınca, burada üzerinde çalıştığınız hikayeleri, görevleri ve sorunları göreceksiniz.",
+        "EMPTY_WATCHING": "<strong>Projelerinizdeki</strong> kullanıcı hikayelerini, görevleri, sorunları takip edin ve değişiklikleri hakkında bilgilendirin :)",
         "EMPTY_PROJECT_LIST": "You don't have any project yet",
         "WORKING_ON_SECTION": "Üzerinde çalışılıyor",
         "WATCHING_SECTION": "İzleniyor",
@@ -652,13 +652,13 @@
             "SELECTED": "Selected"
         },
         "PROJECT_DUE_DATE_STATUS": {
-            "TITLE": "Due Dates",
-            "SUBTITLE": "Specify the due dates status your user stories, tasks and issues will go through if selected",
-            "US_TITLE": "User Story Due Date status",
+            "TITLE": "Bitim Tarihleri",
+            "SUBTITLE": "Kullanıcı öyküleriniz, görevleriniz ve sorunlarınızı seçeceğiniz zaman bitim tarihi durumunu belirtin",
+            "US_TITLE": "Kullanıcı Hikayesi Son Tarih durumu",
             "ACTION_ADD_STATUS": "Yeni durum ekle",
-            "TASK_TITLE": "Task Due Date status",
-            "ISSUE_TITLE": "Issue Due Date status",
-            "DAYS_TO_DUE_DATE": "Days to due date",
+            "TASK_TITLE": "Görev Bitim Tarihi durumu",
+            "ISSUE_TITLE": "Sorun Bitim Tarihi durumu",
+            "DAYS_TO_DUE_DATE": "Bitim tarihi günleri",
             "BEFORE_AFTER": "Before/after",
             "BEFORE": "Before",
             "AFTER": "Past"
@@ -764,7 +764,7 @@
         },
         "STATUS": {
             "PLACEHOLDER_WRITE_STATUS_NAME": "Yeni durum için bir isim yaz",
-            "PLACEHOLDER_DAYS_TO_DUE_DATE": "Write a number of days to due date"
+            "PLACEHOLDER_DAYS_TO_DUE_DATE": "Bitim tarihine birkaç gün yazın"
         },
         "TYPES": {
             "PLACEHOLDER_WRITE_NAME": "Yeni nesne için bir isim yazın"
@@ -791,7 +791,7 @@
             "TYPES": "Tipler",
             "CUSTOM_FIELDS": "Özel alanlar",
             "TAGS": "Etiketler ",
-            "DUE_DATES": "Due dates"
+            "DUE_DATES": "Bitim tarihleri"
         },
         "SUBMENU_ROLES": {
             "TITLE": "Roller",
@@ -1146,14 +1146,14 @@
             "FILTER_ISSUES": "Filter issues"
         },
         "DELETE_DUE_DATE": {
-            "TITLE": "Delete due date",
-            "SUBTITLE": "Are you sure you want to delete this due date?"
+            "TITLE": "Bitim tarihi sil",
+            "SUBTITLE": "Bu bitim tarihini silmek istediğinizden emin misiniz?"
         },
         "DELETE_SPRINT": {
             "TITLE": "Koşuyu sil"
         },
         "REMOVE_RELATIONSHIP_WITH_EPIC": {
-            "TITLE": "Remove relationship with epic",
+            "TITLE": "Destan ile ilişkiyi kaldır",
             "MESSAGE": "Are you sure you want to remove the relationship of this user story with its epic <strong>{{epicSubject}}</strong>?"
         },
         "CREATE_MEMBER": {
@@ -1185,21 +1185,21 @@
             "SEND": "Gönder"
         },
         "SET_DUE_DATE": {
-            "TITLE": "Set due date",
+            "TITLE": "Bitim tarihi ayarla",
             "PLACEHOLDER_DUE_DATE": "Select date",
-            "REASON_FOR_DUE_DATE": "Reason for the due date",
-            "PLACEHOLDER_REASON_FOR_DUE_DATE": "Why does this user story need a due date?",
+            "REASON_FOR_DUE_DATE": "Bitim tarihi için neden",
+            "PLACEHOLDER_REASON_FOR_DUE_DATE": "Bu kullanıcı hikayesinin neden bir bitim tarihi olması gerekiyor?",
             "SUGGESTIONS": {
                 "IN_ONE_WEEK": "In one week",
                 "IN_TWO_WEEKS": "In two weeks",
                 "IN_ONE_MONTH": "In one month",
-                "IN_THREE_MONTHS": "In three months"
+                "IN_THREE_MONTHS": "Üç ay içinde"
             },
-            "TITLE_ACTION_DELETE_DUE_DATE": "Delete due date"
+            "TITLE_ACTION_DELETE_DUE_DATE": "Bitim tarihi sil"
         },
         "ADMIN_DUE_DATES": {
-            "TITLE_ACTION_DELETE_DUE_DATE": "Delete due date",
-            "SUBTITLE_ACTION_DELETE_DUE_DATE": "Are you sure you want to delete the due date status {{due_date_status_name}}?"
+            "TITLE_ACTION_DELETE_DUE_DATE": "Son tarihi kaldır",
+            "SUBTITLE_ACTION_DELETE_DUE_DATE": "Bu bitim tarihi durumunu silmek istediğinizden emin misiniz {{due_date_status_name}}?"
         },
         "RELATE_TO_EPIC": {
             "TITLE": "Link to epic",
@@ -1225,7 +1225,7 @@
         "SUBJECT": "Konu",
         "SUBJECT_BULK_MODE": "Konu (toplu giriş)",
         "CHOOSE_PROJECT_FROM": "Hangi proje?",
-        "CHOOSE_USERSTORY": "Which user story?",
+        "CHOOSE_USERSTORY": "Hangi kullanıcı hikayesi?",
         "NO_USERSTORIES": "This project has no user stories yet. Please select another project.",
         "NO_USERSTORIES_FOUND": "Arama kriterlerinize uyan bir kayıt bulunamadı",
         "FILTER_USERSTORIES": "Filter user stories",
@@ -1309,7 +1309,7 @@
             "TYPE": "tip",
             "ASSIGNED_TO": "atanmış",
             "ASSIGNED_USERS": "assigned users",
-            "DUE_DATE": "due date",
+            "DUE_DATE": "bitim tarihi",
             "MILESTONE": "koşu",
             "COLOR": "renk",
             "PROMOTED_TO": "promoted to"
@@ -1468,7 +1468,7 @@
         "OK": "Herşey mükemmel",
         "WARNING": "Amanın, birşeyler oldu..",
         "WARNING_TEXT": "Your changes were not saved!",
-        "SAVED": "The Taiga saved all your changes!",
+        "SAVED": "Taiga tüm değişikliklerinizi kaydetti!",
         "CLOSE": "Bildirimleri kapat",
         "MAIL": "Posta ile Bildirim",
         "DESKTOP": "Desktop notifications using browser alerts",
@@ -1493,7 +1493,7 @@
         "PAGE_DESCRIPTION": "{{projectName}} projesinin sorun listesi paneli: {{projectDescription}}",
         "SECTION_NAME": "Sorun",
         "ACTION_NEW_ISSUE": "+ YENİ SORUN",
-        "ACTION_ATTACH_SPRINT": "Attach issue to Sprint",
+        "ACTION_ATTACH_SPRINT": "Sprint 'e sorun iliştir",
         "ACTION_DETACH_SPRINT": "Detach issue from Sprint",
         "EXTERNAL_REFERENCE": "Bu talebin oluşturulduğu ",
         "GO_TO_EXTERNAL_REFERENCE": "Kökenine git",
@@ -1596,7 +1596,7 @@
             "SECTION_TITLE": "Kullanıcı Ayarları",
             "CHANGE_PASSWORD": "Parolayı değiştir",
             "EMAIL_NOTIFICATIONS": "E-posta bildirimleri",
-            "DESKTOP_NOTIFICATIONS": "Desktop notifications",
+            "DESKTOP_NOTIFICATIONS": "Masaüstü bildirimleri",
             "EVENTS": "Events"
         },
         "NOTIFICATIONS": {
